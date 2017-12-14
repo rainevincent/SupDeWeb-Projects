@@ -1,0 +1,251 @@
+body
+{
+    font-family: Verdana, serif;
+    font-size: x-small;
+
+    color: black;
+    background-color: white;
+}
+fieldset
+{
+    border: none;
+}
+textarea,
+input
+{
+    width: 90%;
+}
+div
+{
+    font-family: Verdana, serif;
+    font-size: small;
+
+    position: absolute;
+
+    overflow: hidden;
+
+    color: black;
+}
+div.divPostit
+{
+    width: 150px;
+    height: 100px;
+
+    cursor: pointer;
+    text-align: center;
+
+    background-color: #aaa;
+}
+a
+{
+    text-decoration: none;
+
+    color: #aaa;
+}
+a:link,
+a:visited
+{
+    text-decoration: none;
+
+    color: #aaa;
+}
+#divPrincipal
+{
+    top: 50%;
+    left: 50%;
+
+    width: 700px;
+    height: 500px;
+    margin-top: -250px;
+    margin-left: -350px;
+
+    background-image: url(../../images/fond.jpg);
+}
+#divTitre
+{
+    top: 0;
+    left: 0;
+
+    width: 100%;
+    height: 60px;
+
+    background-image: url('../../images/titre.jpg');
+}
+#divMenus
+{
+    top: 60px;
+    left: 0;
+
+    width: 100%;
+    height: 20px;
+    padding-left: 15px;
+
+    color: white;
+    background: #333;
+}
+#divBandeau
+{
+    top: 80px;
+    left: 0;
+
+    width: 100%;
+    height: 100px;
+
+    background-image: url('../../images/bandeau0.jpg');
+}
+#divLiens
+{
+    top: 430px;
+    left: 350px;
+
+    width: 320px;
+    height: 45px;
+
+    background: url(../../images/lien.png) no-repeat white;
+}
+#divPostits
+{
+    top: 160px;
+    left: 350px;
+
+    width: 320px;
+    height: 220px;
+}
+#divPostit1
+{
+    top: 0 !important;
+    left: 0;
+}
+#divPostit2
+{
+    top: 0;
+    left: 170px;
+}
+#divPostit3
+{
+    top: 120px;
+    left: 0;
+}
+#divPostit4
+{
+    top: 120px;
+    left: 170px;
+}
+#divIdent
+{
+    top: 200px;
+    left: 30px;
+
+    width: 160px;
+    height: 60px;
+
+    background: url(../../images/ident.png) no-repeat;
+    background-color: white;
+}
+#divTextIdent
+{
+    font-size: medium;
+
+    top: 0;
+    left: 40px;
+
+    width: 120px;
+    height: 100%;
+
+    background-color: white;
+}
+#divNews
+{
+    top: 280px;
+    left: 30px;
+
+    width: 250px;
+    height: 195px;
+
+    background: url('../../images/news.png') no-repeat;
+}
+#divTextNews
+{
+    top: 75px;
+    left: 0;
+
+    width: 100%;
+    height: 120px;
+
+    background-color: white;
+}
+#divTextLiens
+{
+    top: 0;
+    left: 50px;
+
+    width: 270px;
+    height: 100%;
+}
+#divPied
+{
+    font-size: x-small;
+
+    top: 487px;
+    left: 0;
+
+    width: 100%;
+    height: 13px;
+
+    text-align: right;
+
+    background-color: #666;
+}
+.petitTitre
+{
+    font-size: x-small;
+
+    position: relative;
+
+    width: 100%;
+
+    text-align: center;
+
+    color: white;
+    background-color: #aaa;
+}
+.petitTexte
+{
+    font-size: x-small;
+
+    top: 15px;
+
+    text-align: left;
+
+    color: black;
+}
+.divForm
+{
+    position: relative;
+    top: 30%;
+
+    display: block;
+
+    height: 61%;
+    padding-top: 5%;
+    padding-right: 25%;
+    padding-left: 25%;
+}
+.btn.btn-primary
+{
+    position: relative;
+    left: 25%;
+}
+.ListProducts
+{
+    position: relative;
+    top: 34%;
+
+    display: block;
+
+    width: 250px;
+    height: 270px;
+    padding: 3%;
+
+    border: solid 1px red;
+}
